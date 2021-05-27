@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProgrammersBlog.Mvc.Controllers
+namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class HomeController : Controller
     {
         public IActionResult Index()
